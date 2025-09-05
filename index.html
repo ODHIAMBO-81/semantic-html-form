@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+     
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Student Registration Form</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text id="fullName"
+                    name="fullName" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob"><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Home Address:</label>
+                    <textarea id="address"name="address"></textarea>
+                     
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <label for="course">Course:</label>
+                    <select id="course" name="Course">
+                        <option value="Medicine">Medicine</option>
+                        <option value="Nursing">Nursing</option>
+                        <option value="Pharmacy">Pharmacy</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Other</legend>
+                    <label for="Disability">Disability</label>
+                    <select id="Disability" name="Disability">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Declaration</legend>
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        I confirm that the above Information is true and correct.
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Confirmation</legend>
+                    <label
+                for="Confirmation-date">Date:</label>
+                    <input type="date"
+                id="Confirmation-date" 
+                name="Confirmation-date" required>
+
+                     <label for="signature">Signature:</label>
+                     <input type="text" id="Signature" name="Signature" placeholder="Type our full name as signature" required>
+
+                     <p><strong>Stamp [Official Use Only]:</strong></p>
+                     <p>______________</p>
+                </fieldset>
+
+             </form>
+        </section>
+    </main>
+    
+</body>
+</html>
